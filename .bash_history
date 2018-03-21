@@ -99,3 +99,15 @@ uname -a
 ssh edureka@test02.edureka.com
 vi /etc/hosts
 ssh edureka@test02.edureka.com
+cd /var/lib/jenkins
+ls
+htpasswd -C /usr/local/nagios/
+cd /usr/local/nagios/
+ls
+cd /usr/local/nagios/var/
+ls
+cd ..
+cd libexec/
+ls
+./check_ssh localhost
+./check_ssh 10.27.16.91
